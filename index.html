@@ -1,25 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover Glance</title>
     <style>
-        /* Add CSS directly in the head for simplicity */
         body, html {
-            height: 100%;
             margin: 0;
+            padding: 0;
+            height: 100%;
+            background: black;
+            font-family: Arial, sans-serif;
+            color: white;
             display: flex;
-            justify-content: center;
             align-items: center;
-            background-color: #000000; /* Sets background to black */
+            justify-content: center;
+        }
+        .container {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 20px 0;
         }
         img {
-            max-width: 50%; /* Image will take up 50% of the width of the screen */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Removes bottom margin/gap */
+            width: 100%;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+        .footer {
+            font-size: 18px;
+            background: #333;
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        .call {
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .logo {
+            width: 60px;
+            height: 60px;
         }
     </style>
 </head>
 <body>
-    <img src="HoverGlanceLogo.png" alt="Logo">
+    <div class="container">
+        <h1>Choose the video type you want</h1>
+        <img src="https://via.placeholder.com/317x211" alt="Helsinki view 1">
+        <img src="https://via.placeholder.com/317x211" alt="Helsinki view 2">
+        <img src="https://via.placeholder.com/317x211" alt="Helsinki view 3">
+        <div class="footer">
+            <div>How does it work?</div>
+            <div class="call">For assistance call: +393669951834, +358408202600</div>
+        </div>
+        <img src="https://via.placeholder.com/60" class="logo" alt="HoverGlance Logo">
+    </div>
 </body>
 </html>
