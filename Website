@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hover Glance</title>
+</head>
+<body>
+    <img src="your-image.jpg" alt="Descriptive Text for Image" style="width:100%; height:auto;">
+</body>
+</html>
