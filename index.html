@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hover Glance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
     <style>
         body, html {
             margin: 0;
@@ -27,6 +28,8 @@
         h1 {
             font-size: 24px;
             margin: 20px 0;
+            font-family: 'Montserrat', sans-serif; /* Montserrat SemiBold */
+            font-weight: 600; /* SemiBold is approximately 600 weight */
         }
         img {
             width: 100%;
@@ -44,6 +47,16 @@
             font-size: 16px;
             margin-top: 20px;
         }
+        .button {
+            background: white;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+        }
         .logo {
             width: 60px;
             height: 60px;
@@ -57,7 +70,7 @@
         <img src="Video preview 2.png" alt="Helsinki view 2">
         <img src="Video preview 3.png" alt="Helsinki view 3">
         <div class="footer">
-            <div>How does it work?</div>
+            <button class="button" onclick="alert('You clicked the button!')">How does it work?</button>
             <div class="call">For assistance call: +393669951834, +358408202600</div>
         </div>
         <img src="HoverGlanceLogo.png" class="logo" alt="HoverGlance Logo">
