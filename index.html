@@ -43,7 +43,7 @@
             border-radius: 10px;
             margin-top: 20px;
         }
-        .button {
+        .button, .pay-button {
             background: white;
             color: black;
             border: none;
@@ -51,6 +51,7 @@
             border-radius: 5px;
             font-weight: 600;
             cursor: pointer;
+            margin-top: 20px; /* Space between the button and the image above it */
         }
         .call {
             font-size: 16px;
@@ -68,6 +69,8 @@
         <img src="Video preview 1.png" alt="Helsinki view 1">
         <img src="Video preview 2.png" alt="Helsinki view 2">
         <img src="Video preview 3.png" alt="Helsinki view 3">
+        <!-- Button to Pay and Take the Video -->
+        <button class="pay-button" onclick="window.location.href='https://buy.stripe.com/14k6p93E0fRab8A4gg'">Pay and take the video</button>
         <div class="footer">
             <button class="button" onclick="alert('You clicked the button!')">How does it work?</button>
             <div class="call">For assistance call: +393669951834, +358408202600</div>
